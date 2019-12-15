@@ -1,0 +1,12 @@
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Negocio.dll
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Negocio.pdb
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Acesso.dll
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Model.dll
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Acesso.pdb
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Acesso.dll.config
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\bin\Release\Model.pdb
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\obj\Release\Negocio.csprojAssemblyReference.cache
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\obj\Release\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\obj\Release\Negocio.csproj.CopyComplete
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\obj\Release\Negocio.dll
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Negocio\obj\Release\Negocio.pdb

@@ -1,0 +1,7 @@
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\obj\Debug\Acesso.csproj.CoreCompileInputs.cache
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\bin\Debug\Acesso.dll.config
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\bin\Debug\Acesso.dll
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\bin\Debug\Acesso.pdb
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\obj\Debug\Acesso.dll
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\obj\Debug\Acesso.pdb
+C:\Users\Marcio Sousa\source\repos\cfsbalancopatrimonial\Acesso\obj\Debug\Acesso.csprojAssemblyReference.cache

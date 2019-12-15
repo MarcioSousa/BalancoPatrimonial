@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BalancoPatrimonial.exe" version="1.0.0.2" publicKeyToken="45c98e2a5d20648e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icone.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BalancoPatrimonial" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BalancoPatrimonial.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Acesso.dll" size="33280">
+      <assemblyIdentity name="Acesso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0yVBnFYG5WPP5b/CQeAI0r+8onR5JWBd3VROv4dIqoc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BalancoPatrimonial.exe" size="399368">
+      <assemblyIdentity name="BalancoPatrimonial" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VrQJCb/8dxtnqEAhJnZuQCfTu2rQXCceouLbI4l5C+I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Model.dll" size="5120">
+      <assemblyIdentity name="Model" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rV3ciNsFe+BZyn+ZXzZnflDZZnwpdbDkiZUXoy4HfQ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Negocio.dll" size="7680">
+      <assemblyIdentity name="Negocio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>a7Tbh/aUbCaUlPT5Gecfe0HZK7NX0kSk6kEi8aZzwvc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BalancoPatrimonial.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dbbalpatrimonial.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E91GhDhywVC/fz1K/j+yugErkG9BHKKGIVbqwBo6rUA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dbbalpatrimonial_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F1EKodJqRpjF3bHqyoxE1EE/pPy9XlU5WqTKqkVBxEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icone.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6q8hUv1SV2faqFe58/I8S7SZF21fi29KM2aCeqrT1Tk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-2GRIF7P\Marcio Sousa" issuerKeyHash="4aea38f1d11db0eb280ec0aea27f8fcd60082ac9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6vKUSiAcOy4650hCjSGilgHj9KtU+c5ZnXUJcg77DV4=</DigestValue></Reference></SignedInfo><SignatureValue>TULI9VSGC0ZBLIJ2LgYxDtk4XejnoN1ZpN5VJSOQNrTlVpMjE9UDpC2jk/QYaebRhqI5uG+R3B+hQhcAhq2eJmxkLg3LtDabSG9hlYVuLVqMfnsQCvscSYHjxNAL1LFcqaYrZhP3PIxmMIV+lmFclxVYX2DW4fYF6yKAcyZwgME=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w9vZVcsvLHeqF88gtaqJwAagauRGIE9Kh8v/LkM2RHIUToCSyRVMLi4r/zyEPxQW5+imQPL5kaVrD1tPOJI4Hc5t16pVSY3jO9ztwjXF9iGiS+rf7R+sw3vyQGIGkpLa/XeRYftJLomw9t5SCpQkF+fXed6sYOgAxeYE8WUhHF8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5e0dfb0e7209759d59cef954abf4e30196a2218d4248e73a2e3b1c204a94f2ea" Description="" Url=""><as:assemblyIdentity name="BalancoPatrimonial.exe" version="1.0.0.2" publicKeyToken="45c98e2a5d20648e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2GRIF7P\Marcio Sousa</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pp7aYib3p8Ric//IgNLDsOz/dw+q4fufkDD8UNAhBqE=</DigestValue></Reference></SignedInfo><SignatureValue>eijcs71GnbQJ59MbDpMF3e5XiKHQLRakbHcskHAREmRAU/2DURViBjreJnr9kXQzJLQ8Wu0FbubVCj/Io10/zkyyYFm3pOvt/Tmw/C/jZny79n02lAeuJpWm9/THS/VEQyNO5RdF1gyGYclyShRy8foX6IObckbDPtYwInO74R8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w9vZVcsvLHeqF88gtaqJwAagauRGIE9Kh8v/LkM2RHIUToCSyRVMLi4r/zyEPxQW5+imQPL5kaVrD1tPOJI4Hc5t16pVSY3jO9ztwjXF9iGiS+rf7R+sw3vyQGIGkpLa/XeRYftJLomw9t5SCpQkF+fXed6sYOgAxeYE8WUhHF8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQUmxqy5OgC61Comh9MtQWxjANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtADIARwBSAEkARgA3AFAAXABNAGEAcgBjAGkAbwAgAFMAbwB1AHMAYTAeFw0xOTA3MDIxNTE3MDJaFw0yMDA3MDEyMTE3MDJaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0AMgBHAFIASQBGADcAUABcAE0AYQByAGMAaQBvACAAUwBvAHUAcwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDD29lVyy8sd6oXzyC1qonABqBq5EYgT0qHy/8uQzZEchROgJLJFUwuLiv/PIQ/FBbn6KZA8vmRpWsPW084kjgdzm3XqlVJjeM73O3CNcX2IaJL6t/tH6zDe/JAYgaSktr9d5Fh+0kuibD23lIKlCQX59d53qxg6ADF5gTxZSEcXwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALQuyrgXTLYgKvkd9Aoi3lZShBrl0sRPpfUC9yrtHmfODc4ITMbMrYtiH4U02LTd91GS/rmlW9wNEep6HKp0oCutsUVfL3s7eYJLyZkY/y+8LJPreIFZ8RkYTXdzC12e2rCn+aGZZCq/eZDicS8FA7aMp46v/Wxr7WeBj742Me9z</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
